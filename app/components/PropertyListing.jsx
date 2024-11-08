@@ -30,7 +30,7 @@ const properties = [
 
 const PropertyListing = () => {
   return (
-    <section className="flex flex-col pb-72 max-md:pb-24">
+    <section className="flex justify-between items-center font-inter max-w-[1216px] m-auto py-[36px]">
       <div className="flex flex-col max-md:max-w-full">
         <div className="flex flex-wrap gap-8 items-center w-full max-md:max-w-full">
           {properties.map((property, index) => (
