@@ -1,7 +1,14 @@
+import Hero from "../components/Hero"
+import PropertyListing from "../components/PropertyListing"
+import Ratings from "../components/Ratings"
 
 const page = () => {
   return (
-    <div>page</div>
+    <div>
+      <Hero />
+      <Ratings />
+      <PropertyListing />
+    </div>
   )
 }
 

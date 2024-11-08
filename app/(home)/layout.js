@@ -1,12 +1,5 @@
-import NavBar from "../components/NavBar";
-
- const layout = ({children}) => {
-  return (
-    <div>
-      <NavBar />
-      {children}
-    </div>
-  )
-}
+const layout = ({ children }) => {
+  return <div>{children}</div>;
+};
 
 export default layout;
