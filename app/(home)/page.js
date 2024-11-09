@@ -1,3 +1,4 @@
+import LandlordCTA from "../components/FooterChilds/LandlordCTA"
 import Hero from "../components/Hero"
 import HowItWorksSection from "../components/HowItWorksSection"
 import PropertyListing from "../components/PropertyListing"
@@ -10,6 +11,7 @@ const page = () => {
       <Ratings />
       <HowItWorksSection />
       <PropertyListing />
+      <LandlordCTA />
     </div>
   )
 }
