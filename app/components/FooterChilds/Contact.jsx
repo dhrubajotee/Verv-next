@@ -5,9 +5,9 @@ import SocialIcons from './SocialIcons';
 
 const Contact = () => {
   return (
-    <footer className="flex overflow-hidden flex-col justify-center pt-20 pb-10 bg-white shadow-2xl">
+    <footer className="lg:flex lg:justify-between lg:items-center lg:max-w-[1920px] px-[352px] py-[80px] pb-[40px] bg-white shadow-2xl">
       <div className="flex flex-col w-full max-md:max-w-[1216px]">
-        <div className="flex flex-wrap gap-10 items-start self-center max-w-full text-lg w-[1216px]">
+        <div className="flex w-[1216px] items-start gap-[120px]">
           <ContactInfo />
           <NavMenu />
         </div>
