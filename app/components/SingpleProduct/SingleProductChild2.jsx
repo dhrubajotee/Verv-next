@@ -1,6 +1,7 @@
 import React from "react";
 import Facilities from "./Facilities";
 import IncludeExclude from "./IncludeExclude";
+import Image from "next/image";
 
 const SingleProductChild2 = () => {
   return (
@@ -180,14 +181,13 @@ const SingleProductChild2 = () => {
           </p>
           <div className="flex flex-col items-center gap-[24px]">
             {/* verv logo */}
-            <div className="flex w-[120px] h-[120px] px-[20px] justify-center items-center rounded-[80px] border-[1px_solid_#50B533]">
-              <div className="w-[80px] h-[32px] flex-shrink-0 bg-[url('/images/Verv Logo 1.png')] bg-lightgray bg-cover bg-center">
-                <img
-                  src="/images/Verv Logo 1.png"
-                  alt="Image description"
-                  className="w-[80px] h-[32px]"
-                />
-              </div>
+            <div className="w-[120px] h-[120px] flex justify-center items-center rounded-full border border-[#50B533]">
+              <Image
+                src="/images/Verv Logo 1.png"
+                alt=""
+                height={32}
+                width={80}
+              />
             </div>
             {/* rooms */}
             <div className="flex flex-col items-center gap-[8px]">
