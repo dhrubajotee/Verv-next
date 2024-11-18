@@ -103,7 +103,7 @@ const Register = () => {
                         cy="9"
                         r="7.7"
                         stroke="#50B533"
-                        stroke-width="1.4"
+                        strokeWidth="1.4"
                       />
                       <circle cx="9" cy="9" r="5.25" fill="#50B533" />
                     </svg>
@@ -133,7 +133,7 @@ const Register = () => {
                         cy="9"
                         r="7.7"
                         stroke="#50B533"
-                        stroke-width="1.4"
+                        strokeWidth="1.4"
                       />
                       <circle cx="9" cy="9" r="5.25" fill="#50B533" />
                     </svg>
