@@ -31,16 +31,14 @@ const SimplifiedPricing = () => {
             </div>
           </div>
         </div>
-        <div className="flex w-[400px] h-[181px] p-[8px] flex-col justify-center items-center gap-[8px] flex-shrink-0 rounded-[16px] bg-[rgba(255,_255,_255,_0.10)]">
-          <div>
-            <p className="text-white font-inter text-[20px] font-semibold leading-[120%]">
-              Tenants pay no admin fees!
-            </p>
+        <div className="flex flex-col justify-center items-center gap-2 w-[400px] h-[181px] p-2 flex-shrink-0 rounded-[16px] bg-white/10">
+          <p className="text-white font-inter text-[20px] font-semibold leading-[120%]">
+            Landlords we've got you covered.
+          </p>
 
-            <p className="flex text-white w-[195px] h-[8px] text-center font-inter text-[16px] font-normal leading-[150%]">
-              No more unspecified 'agency' and 'admin' fees.
-            </p>
-          </div>
+          <p className="text-white text-center font-inter text-[16px] font-normal leading-[150%]">
+            No excess agency fees anymore.
+          </p>
         </div>
       </div>
     </div>
