@@ -2,10 +2,11 @@ import React from "react";
 import logo from "../../assets/images/logo.png";
 import Image from "next/image";
 import Included from "./Included";
+import AdditionalServices from "./AdditionalServices";
 
 const ListingRent = () => {
   return (
-    <div className="flex flex-col items-center w-[1216px] gap-[56px] p-[36.5px_352px]">
+    <div className="flex flex-col justify-center items-center w-[1216px] gap-[56px] p-[36.5px_352px] mx-auto">
       <div className="flex justify-center items-start gap-[32px] self-stretch">
         {/* Listing Only */}
         <div className="flex flex-col justify-end items-center pt-[48px] gap-[56px] rounded-[24px] border-[1px] border-[#EEF1F3] bg-[#F5F5F5] shadow-[0px_4px_20px_0px_rgba(0,0,0,0.08)]">
@@ -394,6 +395,21 @@ const ListingRent = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      {/* Additional Services */}
+      <div className="flex flex-col gap-[var(--6,32px)] self-stretch">
+        <p className="text-[var(--secondary-6,#314660)] text-center font-inter text-[32px] font-semibold leading-[120%]">Additional Services</p>
+        <div className="flex flex-col items-center gap-[4px] self-stretch">
+          <AdditionalServices text="Tenant Referencing" price="£19.99" />
+          <AdditionalServices text="Rent Collection" price="£9.99" />
+          <AdditionalServices text="Gas Safety Certificate (CP12)" price="£49.99" />
+          <AdditionalServices text="Energy Performance Certificate (EPC)" price="£59.99" />
+          <AdditionalServices text="Electrical Safety Certificate (EICR)" price="£95.99" />
+          <AdditionalServices text="Inventory & Check-In/Out" price="£79.99" />
+          <AdditionalServices text="Pro Photos" price="£94.99" />
+          <AdditionalServices text="Floor Plans" price="£94.99" />
+          <AdditionalServices text="Accompanied Viewings Service" price="£75.99" />
         </div>
       </div>
     </div>
