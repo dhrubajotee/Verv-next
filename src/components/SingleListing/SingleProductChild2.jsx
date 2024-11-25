@@ -6,7 +6,7 @@ import IncludeExclude from "./IncludeExclude";
 
 const SingleProductChild2 = () => {
   return (
-    <div className="flex flex-row flex-nowrap gap-[32px]">
+    <div>
       {/* summary div */}
       <div className="inline-flex flex-col items-start gap-[40px] ml-[352px] pb-[40px]">
         {/* summary */}
@@ -51,7 +51,7 @@ const SingleProductChild2 = () => {
                 to us for further details.
               </p>
               <p className="w-[800px] text-[#56677D] text-[18px] font-normal leading-[150%] font-inter">
-                Call us now or enquire online to book your viewing while it's
+                Call us now or enquire online to book your viewing while its
                 still available!
               </p>
               <p className="w-[800px] text-[#56677D] text-[18px] font-normal leading-[150%] font-inter">
@@ -177,7 +177,6 @@ const SingleProductChild2 = () => {
         </div>
       </div>
       {/* landlord profile */}
-      <div className="flex justify-start items-start">
       <div className="inline-flex flex-col justify-center items-center p-[40px_76px] rounded-[24px] border border-[#EEF1F3] bg-white">
         <div className="flex flex-col items-center gap-[24px]">
           <p className="text-[#56677D] font-inter text-[20px] font-semibold leading-[120%]">
@@ -235,8 +234,6 @@ const SingleProductChild2 = () => {
           </div>
         </div>
       </div>
-      </div>
-      
     </div>
   );
 };
