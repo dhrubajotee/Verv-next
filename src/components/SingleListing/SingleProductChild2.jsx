@@ -6,7 +6,7 @@ import IncludeExclude from "./IncludeExclude";
 
 const SingleProductChild2 = () => {
   return (
-    <div className="flex flex-row flex-nowrap gap-6">
+    <div className="flex flex-row flex-nowrap gap-[32px]">
       {/* summary div */}
       <div className="inline-flex flex-col items-start gap-[40px] ml-[352px] pb-[40px]">
         {/* summary */}
