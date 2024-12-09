@@ -17,7 +17,7 @@ const Landlords = () => {
   return (
     <div className="flex flex-col gap-[100px]">
       {/* top section */}
-      <div className="flex w-[1920px] h-[540px] px-[112px] py-[80px] justify-center items-start gap-[32px] flex-shrink-0 bg-[rgba(238,248,235,0.78)]">
+      <div className="flex w-[1920px] h-[540px] px-[112px] py-[80px] justify-center items-start gap-[32px] flex-shrink-0 bg-[rgba(238,248,235,0.78)] m-auto">
         <div className="w-[592px] h-[380px] flex-shrink-0">
           <div className="w-[592px] h-[380px] flex-shrink-0 rounded-[16px] bg-[rgba(213,237,206,0.60)] pl-[40px] pt-[40px]">
             <div className="flex w-[515px] flex-col items-start gap-[32px] ">
@@ -345,7 +345,7 @@ const Landlords = () => {
         </div>
       </div>
 
-      <div className="flex flex-col justify-start w-[835px] items-start gap-[24px] ml-[336px]">
+      <div className="flex flex-col justify-start w-[1216px] items-start gap-[24px] m-auto">
         <div className="flex flex-col items-start gap-7 self-stretch">
           <p className="text-[#314660] font-semibold text-[30px] leading-[38px]">
             Discover New Opportunities for Landlords!
