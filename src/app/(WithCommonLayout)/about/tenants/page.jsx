@@ -1,12 +1,11 @@
-import Tenants from '@/components/About/Tenants'
-import React from 'react'
+import Tenants from "@/components/About/Tenants/Tenants";
 
 const page = () => {
   return (
     <div>
-        <Tenants />
+      <Tenants />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;

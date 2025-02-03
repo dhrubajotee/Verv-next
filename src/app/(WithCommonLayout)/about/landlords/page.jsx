@@ -1,12 +1,11 @@
-import Landlords from '@/components/About/Landlords'
-import React from 'react'
+import Landlords from "@/components/About/Landlords/Landlords";
 
 const page = () => {
   return (
     <div>
       <Landlords />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;
